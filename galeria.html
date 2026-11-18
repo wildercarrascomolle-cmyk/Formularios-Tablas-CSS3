@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Galería de imágenes en miniatura</title>
+    <style>
+        .galeria {
+            display: flex;      /* coloca las miniaturas una al lado de otra */
+            flex-wrap: wrap;    /* si no caben, pasan a la siguiente fila */
+            gap: 10px;          /* separación entre miniaturas */
+        }
+        .galeria img {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galería de imágenes en miniatura</h1>
+    <h2>Cada miniatura abre una imagen grande</h2>
+    <hr>
+    <p><b>Programado por: </b>(Wilder Elias Carrasco Molle)</p>
+    <div class="galeria">
+        <a href="img/amazonia.jpg"><img src="img/amazonia.jpg" width="200" height="150" alt="amazonia"></a>
+        <a href="img/arequipa.jpg"><img src="img/arequipa.jpg" width="200" height="150" alt="arequipa"></a>
+        <a href="img/colca.jpg"><img src="img/colca.jpg" width="200" height="150" alt="colca"></a>
+        <a href="img/cusco.jpg"><img src="img/cusco.jpg" width="200" height="150" alt="cusco"></a>
+        <a href="img/huacachina.jpg"><img src="img/huacachina.jpg" width="200" height="150" alt="huacachina"></a>
+        <a href="img/huascaran.jpg"><img src="img/huascaran.jpg" width="200" height="150" alt="huascaran"></a>
+        <a href="img/kuelap.jpg"><img src="img/kuelap.jpg" width="200" height="150" alt="kuelap"></a>
+        <a href="img/machu-picchu.jpg"><img src="img/machu-picchu.jpg" width="200" height="150" alt="machu-picchu"></a>
+        <a href="img/mancora.jpg"><img src="img/mancora.jpg" width="200" height="150" alt="mancora"></a>
+        <a href="img/paracas.jpg"><img src="img/paracas.jpg" width="200" height="150" alt="paracas"></a>
+        <a href="img/titicaca.jpg"><img src="img/titicaca.jpg" width="200" height="150" alt="titicaca"></a>
+        <a href="img/vinicunca.jpg"><img src="img/vinicunca.jpg" width="200" height="150" alt="vinicunca"></a>
+    </div>
+</body>
+</html>
